@@ -1,0 +1,1 @@
+export {deviceInfoService} from './deviceInfo';

@@ -1,5 +1,364 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Landing Page Create Landing Page 1`] = `
+<View
+  pointerEvents="auto"
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "100%",
+        "paddingBottom": "10%",
+        "paddingLeft": "10%",
+        "paddingRight": "10%",
+        "paddingTop": "10%",
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "height": "75%",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 38.846579013227505,
+              "fontWeight": "bold",
+              "marginTop": "45%",
+            },
+          ]
+        }
+      >
+        RAKBANK
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fonSize": 27.969536889523805,
+                "marginTop": "2%",
+              },
+            ]
+          }
+        >
+          Everything you love about Digital Banking in a smarter, simpler design
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "left": -50,
+        "position": "absolute",
+        "top": 124.30905284232801,
+        "zIndex": 1,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 28,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": "6%",
+          "justifyContent": "center",
+          "position": "absolute",
+          "right": 10,
+          "top": 124.30905284232801,
+          "width": "30%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Register
+    </Text>
+  </View>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": "40%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "black",
+            "borderRadius": 30,
+            "display": "flex",
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": 0,
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          background={true}
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 20,
+              },
+            ]
+          }
+        >
+          Login with User ID
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderRadius": 30,
+            "display": "flex",
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": "4%",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 20,
+              },
+            ]
+          }
+        >
+          Quick balance
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    collapsable={false}
+    style={Object {}}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": "50%",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter user ID"
+        placeholderTextColor="rgba(66,76,89,1)"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 10.877042123703701,
+              "fontSize": 29.523400050052903,
+              "height": 93.23178963174601,
+              "paddingLeft": "3%",
+              "width": "100%",
+            },
+          ]
+        }
+        value=""
+      />
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter Password"
+        placeholderTextColor="rgba(66,76,89,1)"
+        secureTextEntry={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 10.877042123703701,
+              "fontSize": 29.523400050052903,
+              "height": 93.23178963174601,
+              "paddingLeft": "3%",
+              "width": "100%",
+            },
+            Object {
+              "marginTop": 31.077263210582004,
+            },
+          ]
+        }
+        value=""
+      />
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "black",
+            "borderRadius": 30,
+            "display": "flex",
+            "height": 40,
+            "justifyContent": "center",
+            "marginTop": "4%",
+            "opacity": 0.3,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          background={true}
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 20,
+              },
+            ]
+          }
+        >
+          Submit
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`Landing Page Render Landing Page 1`] = `
 <View
   pointerEvents="auto"

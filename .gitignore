@@ -20,6 +20,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+coverage
 
 # Android/IntelliJ
 #
@@ -35,6 +36,8 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+Podfile.lock
+package-lock.json
 
 # BUCK
 buck-out/

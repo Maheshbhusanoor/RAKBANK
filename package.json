@@ -15,6 +15,7 @@
     "@react-navigation/native": "^6.0.16",
     "@react-navigation/native-stack": "^6.9.4",
     "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/react": "^13.4.0",
     "axios": "^1.2.0",
     "i18next": "^22.0.8",
     "lodash": "^4.17.21",
@@ -30,6 +31,7 @@
     "react-native-pixel-perfect": "^1.0.2",
     "react-native-safe-area-context": "^4.4.1",
     "react-native-screens": "^3.18.2",
+    "react-native-testing-library": "^6.0.0",
     "react-native-uuid": "^2.0.1",
     "react-native-vector-icons": "^9.2.0",
     "react-redux": "^8.0.5",
@@ -70,9 +72,36 @@
       "ts",
       "tsx",
       "js",
-      "jsx",
-      "json",
-      "node"
+      "jsx"
+    ],
+    "setupFiles": [
+      "<rootDir>/jestConfigs/setup/jestSetup.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|redux-persist.*|react-native-vector-icons|@react-native-community|@makard|@react-navigation|frames-react-native|@sentry/.*|@react-native)"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "cobertura",
+      "lcov",
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 13.2,
+        "functions": 14.4,
+        "lines": 26.2
+      }
+    },
+    "reporters": [
+      "default"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/jestConfigs/preloads/jest-preload.js"
     ]
   }
 }
